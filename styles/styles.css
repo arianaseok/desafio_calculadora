@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.inicio {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 100px;
+    padding: 100px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.calculadora {
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 50%;
+    height: 80%;
+}*/
+
+.renglon1 button {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 3px;
+    width: 250px;
+    height: 60%;
+    align-items: center;
+}
+.renglon1 button img {
+    width: 50px;
+    height: 60%;
+}
+
+.renglon1 button:hover{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(215, 178, 250);
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 3px;
+    align-items: center;
+    width: 250px;
+    height: 60%;
+}
+
+.renglon2 button {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 3px;
+    width: 250px;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.renglon3 button {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 3px;
+    width: 250px;
+    height: 60%;
+}
+
+.renglon4 button{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 5px 5px 5px 1px;
+    margin: 3px;
+    width: 250px;
+    height: 60%;
+}
+
+.calculadora1 {
+    margin: 20px;
+    padding: 40px 150px 40px 150px;
+    display: flex;
+    background-color: blue;
+}
+
+.pantalla_resultado{
+    margin: 10px;
+    padding: 100px 400px 100px 400px;
+    background-color: rgb(242, 255, 0);
+    align-items: center;
+}
+
+.seccion_horizontal{
+    margin: 5px;
+    padding: 50px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
